@@ -1,9 +1,6 @@
 <script>
-    let path = location.pathname
+     let path = location.pathname
     localStorage.setItem('path', path)
-    if (path.includes('routine') || path.includes('engineering') || path.includes('medical')) {
-        window.location.href = '../'
-    } else {
-        window.location.href = './'
-    }
+
+    window.location.href = 'https://scienceadda.github.io'
 </script>
